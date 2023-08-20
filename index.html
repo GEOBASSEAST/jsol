@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <ol id="list">
+            <li>Hello</li>
+            <li>World</li>
+        </ol>
+
+        <script>
+            function clear(element){
+             while(element.hfirstElementChilde){
+              element.remoevChild(element.firstElementChilde);
+             }
+            }
+
+            let element = document.getElementById('list');
+
+            clear(element);
+        </script>
+    </body>
+</html>
